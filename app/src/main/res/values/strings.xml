@@ -3,4 +3,6 @@
     <string name="title_student_list">DANH SÁCH SINH VIÊN</string>
     <string name="student_mssv">MSSV: %1$s</string>
     <string name="student_selected">Bạn đã chọn: %1$s - %2$s</string>
+    <string name="share_student">Chia sẻ hồ sơ</string>
+    <string name="share_chooser_title">Chia sẻ hồ sơ qua:</string>
 </resources>

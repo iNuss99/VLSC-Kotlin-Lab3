@@ -1,8 +1,34 @@
 package vn.edu.vlsc.lab1helloworld.model
 
+import android.os.Parcel
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class Student(
     val id: Int,
     val name: String,
     val mssv: String,
     val avatarRes: Int
-)
+) : Parcelable {
+    constructor(parcel: Parcel) : this(
+        parcel.readInt(),
+        parcel.readString() ?: "",
+        parcel.readString() ?: "",
+        parcel.readInt()
+    )
+
+    override fun writeToParcel(parcel: Parcel, flags: Int) {
+        parcel.writeInt(id)
+        parcel.writeString(name)
+        parcel.writeString(mssv)
+        parcel.writeInt(avatarRes)
+    }
+
+    override fun describeContents(): Int = 0
+
+    companion object CREATOR : Parcelable.Creator<Student> {
+        override fun createFromParcel(parcel: Parcel): Student = Student(parcel)
+        override fun newArray(size: Int): Array<Student?> = arrayOfNulls(size)
+    }
+}

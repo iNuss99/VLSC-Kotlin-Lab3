@@ -1,7 +1,7 @@
 package vn.edu.vlsc.lab1helloworld
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -14,7 +14,12 @@ import vn.edu.vlsc.lab1helloworld.model.Student
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private val studentAdapter = StudentAdapter { student -> showStudentToast(student) }
+    private val studentAdapter = StudentAdapter { student ->
+        val intent = Intent(this@MainActivity, DetailActivity::class.java).apply {
+            putExtra(DetailActivity.EXTRA_STUDENT, student)
+        }
+        startActivity(intent)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,14 +48,6 @@ class MainActivity : AppCompatActivity() {
             adapter = studentAdapter
             setHasFixedSize(true)
         }
-    }
-
-    private fun showStudentToast(student: Student) {
-        Toast.makeText(
-            this,
-            getString(R.string.student_selected, student.name, student.mssv),
-            Toast.LENGTH_SHORT
-        ).show()
     }
 
     private fun getSampleStudents(): List<Student> {
