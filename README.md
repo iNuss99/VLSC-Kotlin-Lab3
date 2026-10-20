@@ -24,7 +24,7 @@ Xây dựng ứng dụng Android hiển thị danh sách 10 sinh viên dưới d
 
 ### 🖼️ Minh chứng kết quả thực hiện Lab 3a
 
-![Minh chứng kết quả Lab 3a](/image.png)
+![Minh chứng kết quả Lab 3a](/imagelab3.png)
 
 ### 📱 Giới thiệu Lab 04
 
