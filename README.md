@@ -19,6 +19,12 @@ Xây dựng ứng dụng Android hiển thị danh sách 10 sinh viên dưới d
 - **ViewBinding**: Truy cập view an toàn theo kiểu dữ liệu (type-safe), thay thế cho `findViewById`.
 - **Edge-to-Edge**: Tự động xử lý WindowInsets giúp giao diện tràn màn hình hiện đại.
 
+### 🖼️ Minh chứng kết quả thực hiện Lab 3a
+
+![Minh chứng kết quả Lab 3a](img_lab3.png)
+
+*Hình ảnh minh chứng Lab 3a: Giao diện Android Studio hiển thị danh sách sinh viên chuẩn MaterialCardView trên MainActivity.*
+
 ---
 
 ## 📌 PHẦN 2: LAB 04 (LAB 3B) — ĐIỀU HƯỚNG ĐA MÀN HÌNH VỚI INTENT VÀ VÒNG ĐỜI ACTIVITY
@@ -36,13 +42,11 @@ Mở rộng từ Lab 3a, tập trung vào việc điều hướng đa màn hình
    - **Lỗi 1 (OOM / Binder Transaction Too Large Exception):** Hệ thống giới hạn Transaction Buffer của IPC Binder ở mức ~1MB. Tránh truyền dữ liệu binary/mảng byte quá lớn trong Bundle.
    - **Lỗi 2 (Memory Leak / Context Binding):** Tránh tham chiếu Activity context trong `companion object` tĩnh.
 
----
+### 🖼️ Minh chứng kết quả thực hiện Lab 04
 
-## 🖼️ Minh chứng kết quả thực hiện
+![Minh chứng kết quả Lab 04](img_lab4.png)
 
-![Minh chứng kết quả](img.png)
-
-*Hình ảnh minh chứng: Giao diện ứng dụng chạy thành công trên Android Studio hiển thị danh sách sinh viên chuẩn MaterialCardView và màn hình chi tiết sinh viên (DetailActivity).*
+*Hình ảnh minh chứng Lab 04: Giao diện Android Studio hiển thị thông tin chi tiết sinh viên (DetailActivity - Trần Thị Bình - MSSV: 2024002) trên máy ảo emulator.*
 
 ---
 
