@@ -44,6 +44,7 @@ Mở rộng từ Lab 3a, tập trung vào việc điều hướng đa màn hình
 ### 🖼️ Minh chứng kết quả thực hiện Lab 04
 
 ![Minh chứng kết quả Lab 04](/imagelab_4.png)
+![Minh chứng kết quả Lab 04](/imagelab_4_02.png)
 
 ---
 
