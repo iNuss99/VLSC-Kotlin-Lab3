@@ -54,13 +54,3 @@ Mở rộng từ Lab 3a, tập trung vào việc điều hướng đa màn hình
 2. **Kiểm tra chức năng:**
    - **Lab 3a:** Danh sách 10 sinh viên hiển thị mượt mà trên `RecyclerView`.
    - **Lab 04:** Chạm vào sinh viên bất kỳ -> `DetailActivity` mở ra hiển thị Tên, MSSV và Ảnh đại diện. Bấm **"Chia sẻ hồ sơ"** -> Bảng chọn ứng dụng (Intent Chooser) xuất hiện với nội dung: `Hồ sơ SV: [Tên] - [MSSV]`.
-
----
-
-## 🤖 Sử dụng AI có trách nhiệm (AI Usage Statement)
-- **Công cụ AI sử dụng:** Gemini in Android Studio.
-- **Mục đích:**
-  - Hỗ trợ giải thích và rà soát code theo chuẩn Kotlin.
-  - Hỗ trợ cấu hình Gradle, khôi phục cấu trúc dự án và xây dựng `Parcelable`.
-  - Viết báo cáo gỡ lỗi và giải thích cơ chế IPC Binder.
-- **Cam kết:** Sinh viên tự hiểu rõ và kiểm soát hoàn toàn mã nguồn bài nộp.
