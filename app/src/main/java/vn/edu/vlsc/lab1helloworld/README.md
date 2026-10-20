@@ -23,7 +23,7 @@ Xây dựng ứng dụng Android hiển thị danh sách 10 sinh viên dưới d
 
 ![Minh chứng kết quả Lab 3a](img_lab3.png)
 
-*Hình ảnh minh chứng Lab 3a: Giao diện Android Studio hiển thị danh sách sinh viên chuẩn MaterialCardView trên MainActivity.*
+*Hình ảnh minh chứng Lab 3a: Màn hình danh sách sinh viên chuẩn MaterialCardView trên MainActivity.*
 
 ---
 
@@ -46,7 +46,7 @@ Mở rộng từ Lab 3a, tập trung vào việc điều hướng đa màn hình
 
 ![Minh chứng kết quả Lab 04](img_lab4.png)
 
-*Hình ảnh minh chứng Lab 04: Giao diện Android Studio hiển thị thông tin chi tiết sinh viên (DetailActivity - Trần Thị Bình - MSSV: 2024002) trên máy ảo emulator.*
+*Hình ảnh minh chứng Lab 04: Màn hình chi tiết sinh viên (DetailActivity - Trần Thị Bình - MSSV: 2024002).*
 
 ---
 
